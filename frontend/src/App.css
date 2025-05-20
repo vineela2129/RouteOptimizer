@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.App-header {
+  background-color: #1f2937;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+  font-weight: 500;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px 0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.form-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+input, select {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+button.primary {
+  background-color: #007bff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+button.danger {
+  background-color: #dc3545;
+}
+
+button.warning {
+  background-color: #ffc107;
+  color: #000;
+}
